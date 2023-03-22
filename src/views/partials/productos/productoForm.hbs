@@ -1,0 +1,41 @@
+<div class="card card-body p-4 bg-dark text-white" id="form">
+    <h4 class="text-center">Alta para productos</h4>
+    <form action="/productos/agregar" method="POST">
+        <div>
+            <label for="clave">Clave: </label>
+            <input type="text" name="clave" placeholder="Clave" id="clave" class="form-control bg-dark text-white" autofocus/>
+        </div>
+        <br>
+        <div>
+            <label for="marca">Marca: </label>
+            <input type="text" name="marca" placeholder="Marca" id="marca" class="form-control bg-dark text-white"/>
+        </div>
+        <br>
+        <div>
+            <label for="precio">Precio: </label>
+            <input type="text" name="precio" placeholder="Precio" id="precio" class="form-control bg-dark text-white"/>
+        </div>
+        <br>
+        <div>
+            <label for="fechaLanzamiento">Fecha de lanzamiento: </label>
+            <input type="date" name="fechaLanzamiento" placeholder="Fecha de lanzamiento" id="fechaLanzamiento" class="form-control bg-dark text-white"/>
+        </div>
+        <br>
+        <div>
+            <label for="ram">RAM: </label>
+            <input type="text" name="ram" placeholder="RAM" id="ram" class="form-control bg-dark text-white"/>
+        </div>
+        <br>
+        <div>
+            <label for="almacenamiento">Almacenamiento: </label>
+            <input type="text" name="almacenamiento" placeholder="Almacenamiento" id="almacenamiento" class="form-control bg-dark text-white"/>
+        </div>
+        <br>
+        <div>
+            <label for="cantidadCamaras">Cantidad de cámaras: </label>
+            <input type="number" name="cantidadCamaras" placeholder="Cantidad de cámaras" id="cantidadCamaras" class="form-control bg-dark text-white"/>
+        </div>
+        <br>
+        <button class="btn btn-success btn-sm mt-2" id="btnProducto">Agregar</button>
+    </form>
+</div>

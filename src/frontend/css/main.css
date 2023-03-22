@@ -1,0 +1,62 @@
+body {
+  background-image: url("/icons/fondo2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.bg-black {
+  background: #111111;
+}
+
+#btnProducto {
+  background-color: #ff0080;
+  border-color: #ff0080;
+  border-radius: 8%;
+}
+
+#btnProducto:hover {
+  background: none;
+  transition: all 0.3s;
+  margin-left: 4%;
+}
+
+#form {
+  border-radius: 3%;
+}
+
+.form-control {
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.form-control:focus {
+  border-color: #ff667c;
+  outline: 0;
+  box-shadow: 0 0 0 2px #ff0080;
+}
+
+#btnAct {
+  background-color: #ff0080;
+  border-color: #ff0080;
+  border-radius: 8%;
+}
+
+#btnAct:hover {
+  background: none;
+  transition: all 0.3s;
+  margin-left: 4%;
+}
+
+#btnVolv {
+    background-color: #2152ff;
+    border-color: #2152ff;
+    border-radius: 8%;
+    margin-left: 5%;
+  }
+  
+  #btnVolv:hover {
+    background: none;
+    transition: all 0.3s;
+    margin-left: 4%;
+  }
